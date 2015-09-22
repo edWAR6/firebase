@@ -1,0 +1,13 @@
+<h1>Products</h1>
+
+<button ng-click="load()">Listar</button>
+<ol>
+	<li ng-repeat="product in products">
+		<p>Id: {{product.id}}, Nombre: {{product.name}}</p>
+	</li>
+</ol>
+
+Id: <input type="text" ng-model="newproduct.id"></input>
+Nombre: <input type="text" ng-model="newproduct.name"></input>
+
+<button ng-click="save()">Guardar</button>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="promises">
+<head>
+	<title>Callbacks</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.min.js"></script>
+
+	<script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+	<script src="http://cdn.firebase.com/libs/angularfire/1.1.2/angularfire.js"></script>
+
+	<script src="app.js"></script>
+	<script src="controllers.js"></script>
+	<script src="services.js"></script>
+</head>
+<body>
+	<h1>Hola Mundo</h1>
+	<a href="#/">Home</a>
+	<a href="#/products">Products</a>
+	<a href="#/users">Users</a>
+	<div ng-view>		
+	</div>	
+</body>
+</html>
